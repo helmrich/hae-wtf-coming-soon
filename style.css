@@ -5,13 +5,23 @@
 }
 
 body {
-  background-color: #56a0d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('images/background.svg');
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
 }
 
-#backgroundContainer {
-  background-image: url('haWTF.svg');
-  background-size: cover;
-  background-position: center;
-  aspect-ratio: 16/9;
+.logo {
   width: 100%;
+  aspect-ratio: 1920 / 1080;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 85%;
+  }
 }
