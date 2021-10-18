@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #56a0d1;
+}
+
+#backgroundContainer {
+  background-image: url('haWTF.svg');
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 16/9;
+  width: 100%;
+}
