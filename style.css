@@ -16,12 +16,5 @@ body {
 }
 
 .logo {
-  width: 100%;
-  aspect-ratio: 1920 / 1080;
-}
-
-@media only screen and (min-width: 768px) {
-  .logo {
-    width: 85%;
-  }
+  width: 50%;
 }
